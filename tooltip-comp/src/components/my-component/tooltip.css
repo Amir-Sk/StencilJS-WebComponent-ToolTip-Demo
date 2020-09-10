@@ -1,0 +1,18 @@
+.custom-tooltip.hidden {
+  display: none;
+}
+
+.custom-tooltip {
+  position: fixed;
+  color: #fff;
+  opacity: 1;
+  z-index: 999;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  background-color: deepskyblue;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: -4em;
+}

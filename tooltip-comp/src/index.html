@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+
+  <script type="module" src="/build/annotorepl.esm.js"></script>
+  <script nomodule="" src="/build/annotorepl.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: rgba(236, 243, 246, 50);
+      color: #5F6976;
+      font-family: "Pier Sans", "proxima-nova", "Helvetica Neue", sans-serif;
+    }
+    .container {
+      width: 100px;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+<p>“ You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And YOU are the one who'll decide where to go...”
+  Dr. Seuss - Oh, the Places You'll Go!.</p>
+
+<div class="container">
+  <div style="padding:32px;position:relative;background-color:gray;color:aquamarine;width:100px;">
+    <p>A box to hover at</p>
+    <ion-icon id="my-icon" name="heart" size="large" style="position:absolute; right:0;top:0;"></ion-icon>
+    <wc-tooltip iden="my-icon">This is my icon tooltip</wc-tooltip>
+  </div>
+</div>
+<p>“Sometimes the questions are complicated and the answers are simple.” Dr Suess</p>
+</body>
+</html>
